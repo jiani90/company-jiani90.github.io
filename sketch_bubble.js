@@ -22,7 +22,7 @@ function preload() {
 
 function setup() {
     var canvas = createCanvas(windowWidth, windowHeight);
-    frameRate(30);                 
+    frameRate(50);                 
     
     img = loadImage("123.png"); 
     button = createButton('back');
