@@ -26,6 +26,13 @@ function setup() {
     
     img = loadImage("123.png"); 
     button = createButton('back');
+    var col = color('pink');
+//        button.class("Button");
+    button.style("background-color", col);
+    button.size(80)
+    button.position(width / 2 - 20, height / 2 + 400);
+    button.mousePressed(goBack);
+    
     noStroke();
  
 //    var col = color('pink');
@@ -471,12 +478,7 @@ var investorParticle = function (name, sum, investor) {
     this.update = function () {
         
         
-    var col = color('pink');
-//        button.class("Button");
-    button.style("background-color", col);
-    button.size(80)
-    button.position(width / 2 - 20, height / 2 + 400);
-    button.mousePressed(goBack);
+    
 
         
         this.radius = sqrt(this.amount) / 2000
