@@ -264,11 +264,11 @@ function drawLenging(){
     ];
     arr1.forEach(function (e){
         
-        textSize(8);
+        textSize(10);
         textAlign(LEFT);
 //        textStyle(BOLD);
         fill(e.color);
-         text(e.text,90, 200,300,450)
+         text(e.text,90, 200,400,450)
     
     
     });
@@ -282,11 +282,11 @@ function drawLenging(){
     ];
     arr2.forEach(function (e){
         
-        textSize(8);
+        textSize(10);
         textAlign(LEFT);
 //        textStyle(BOLD);
         fill(e.color);
-         text(e.text,90, 330,300,450)
+         text(e.text,90, 330,400,450)
     
     
     });
