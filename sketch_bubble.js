@@ -264,7 +264,7 @@ function drawLenging(){
     ];
     arr1.forEach(function (e){
         
-        textSize(15);
+        textSize(10);
         textAlign(LEFT);
 //        textStyle(BOLD);
         fill(e.color);
@@ -282,7 +282,7 @@ function drawLenging(){
     ];
     arr2.forEach(function (e){
         
-        textSize(15);
+        textSize(10);
         textAlign(LEFT);
 //        textStyle(BOLD);
         fill(e.color);
